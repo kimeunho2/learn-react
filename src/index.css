@@ -11,3 +11,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card {
+  max-width: 280px;
+  border: solid 1px #ccc;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 25px;
+}
+
+.card-sub-text {
+  font-size: 14px;
+}
+
+.card button {
+  background-color: blue;
+  color: white;
+  padding: 5px 7px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+body {
+  background-color: black;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+.login-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.login-input {
+ width: 500px;
+ height: 40px;
+ margin: 10px 0;
+ border: solid; 
+ border-radius: 5px;
+}
+
+.login-button {
+  width: 500px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.noAccount {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.socialButton {
+  width: 500px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 20px;
+  border: solid; 
+  border-radius: 5px;
+
+}
