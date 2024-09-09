@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LoginEmail = () => {
+const Loginemail1 = () => {
   return (
     <div>
     <input type='email' placeholder='Email' className='login-input'/>
@@ -8,4 +8,4 @@ const LoginEmail = () => {
   )
 }
 
-export default LoginEmail
+export default Loginemail1
