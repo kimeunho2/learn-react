@@ -1,17 +1,18 @@
 import React from 'react'
+import CardButton from './CardButton';
 
 
 const name = "김은호"
 
 
 
-const Card = () => {
+const Card = ({title, subText}) => {
   return (
     <div className='card'>
-        <h5 className='card-title'>{name}</h5>
-        <p className='card-sub-text'>Some quick example text to build on <br/>the card title and make up the<br/> bulk of the card's content.
+        <h5 className='card-title'>{title}</h5>
+        <p className='card-sub-text'>{subText}
         </p>
-        <button type='button' className='card-button'>Go somewhere</button>
+        <CardButton/>
         </div>
   )
 }

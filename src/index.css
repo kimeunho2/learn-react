@@ -36,9 +36,9 @@ code {
 }
 
 
-body {
+/* body {
   background-color: black;
-}
+} */
 
 .login {
   display: flex;
@@ -52,7 +52,7 @@ body {
 .login-text {
   font-size: 30px;
   font-weight: bold;
-  color: #ccc;
+  color: black;
 }
 
 .login-input {
@@ -72,7 +72,7 @@ body {
 
 .noAccount {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 20px;
 }
 

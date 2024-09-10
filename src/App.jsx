@@ -1,3 +1,5 @@
+import Count from './components/Count';
+import Card from './components/Card';
 import Login from './pages/Login';
 
 
@@ -20,6 +22,7 @@ function App() {
   } else {
     console.log("관리자 페이지 접근 불가능");
   };
+
 
 
   // Default parameter
@@ -84,14 +87,14 @@ console.log(copyPerson);
 
 return (
     <>
-    {/* {isView && (
-      <div>
-      <div>hello world</div>
-      </div>
-    )} */}
-  
+  {/* <Card title={"123"} subText="123"/>
+  <Card/> */}
+
+  {/* <Count/> */}
+
   <Login/>
-  
+
+
     </>
     
     

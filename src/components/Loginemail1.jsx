@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Loginemail1 = () => {
+const Loginemail1 = ({placeholder}) => {
   return (
     <div>
-    <input type='email' placeholder='Email' className='login-input'/>
+    <input type='email' placeholder={placeholder} className='login-input'/>
     </div>
   )
 }

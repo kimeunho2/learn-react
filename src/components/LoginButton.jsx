@@ -1,9 +1,9 @@
 import React from 'react'
 
-const LoginButton = () => {
+const LoginButton = ({text}) => {
   return (
     <div>
-     <button type='button' className='login-button'>Login</button>   
+     <button type='button' className='login-button'>{text}</button>   
     </div>
   )
 }
