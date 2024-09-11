@@ -13,27 +13,30 @@ import React, { useState } from 'react';
 
 
 
-const Count = () => {
-    const [counter, setCounter] = useState(0);
+const Count = ({count}) => {
+
+    const [counter, setCounter] = useState(0)
 
     const increase = () => {
-        if (counter >= 10) return; 
-        
-        setCounter(counter +1);
-        
-    }
+        if (counter >= 10) return
+
+        setCounter(counter + count);
+        console.log(typeof (counter + count))
+   }
 
     const decrease = () => {
-        if (counter <= 0) return;
+        if (counter <= 0) return
 
-        setCounter(counter -1);
+        setCounter(counter - count);
+        console.log(typeof (counter - count))
     }
+    
   
     return (
     <div>
         <h2>{counter}</h2>
-        <button type='button' onClick={increase}>+1</button>
-        <button type='button' onClick={decrease}>-1</button>
+        <button type='button' onClick={increase}>+2</button>
+        <button type='button' onClick={decrease}>-2</button>
         </div>
 
   )

@@ -22,6 +22,8 @@ const Card = ({title, subText}) => {
 
 
 
+
+
 export default Card;
 
 

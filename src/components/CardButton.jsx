@@ -3,11 +3,11 @@ import React from 'react'
 const CardButton = () => {
   
 const handleClick = () => {
-    onCardButtonClick();
+    
 }  
   
     return (
-    <button type='button' className='card-button' onClick={handleClick}>Go somewhere</button>
+    <button type='button' className='card-button' onClick={handleClick}>Go omewhere</button>
   )
 }
 

@@ -12,8 +12,8 @@ const Login = () => {
     <p className='login-text'>로그인</p>
     
     <form>
-    <Loginemail1 placeholder = "email"/>
-    <Loginemail1 placeholder = "password"/>
+    <Loginemail1 type ="text" placeholder = "email"/>
+    <Loginemail1 type ="password"placeholder = "password"/>
     
     <LoginButton text = "로그인"/>
     <p className='noAccount'>계정이 없으신가요? <a>가입하기</a> <br/>or </p>
